@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: rest-service-end
+
+server:
+  port: 16602
