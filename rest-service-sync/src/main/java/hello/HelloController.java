@@ -34,7 +34,7 @@ public class HelloController {
 		Value value = new Value();
 
 		ListenableFuture<ResponseEntity<String>> future = asyncRestTemplate
-				.getForEntity("http://rest-service-end:16602/test?cal=" + cal2, String.class);
+				.getForEntity("http://rest-service-analysis:16602/test?cal=" + cal2, String.class);
 				
 		// waits for the result
 		ResponseEntity<String> entity = future.get();

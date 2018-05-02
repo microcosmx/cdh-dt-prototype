@@ -16,8 +16,8 @@
     </parent>
 
 	<modules>
-		<module>rest-service-1</module>
-		<module>rest-service-end</module>
+		<module>rest-service-sync</module>
+		<module>rest-service-analysis</module>
 	</modules>
 
 	<dependencies>

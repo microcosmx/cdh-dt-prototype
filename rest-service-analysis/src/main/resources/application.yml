@@ -1,6 +1,6 @@
 spring:
   application:
-    name: rest-service-end
+    name: rest-service-analysis
 
 server:
   port: 16602

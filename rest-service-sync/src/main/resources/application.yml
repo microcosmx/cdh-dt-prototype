@@ -1,6 +1,6 @@
 spring:
   application:
-    name: rest-service-1
+    name: rest-service-sync
 
 server:
   port: 16601

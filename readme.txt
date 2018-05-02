@@ -52,9 +52,9 @@ http://fdc201705:16006/hello6?cal=66
 build:
 mvn clean package
 docker-compose build
-docker tag my-service-cluster/rest-service-end 10.141.212.25:5555/my-rest-service-end
+docker tag my-service-cluster/rest-service-analysis 10.141.212.25:5555/my-rest-service-analysis
 
-docker push 10.141.212.25:5555/my-rest-service-end
+docker push 10.141.212.25:5555/my-rest-service-analysis
 
 docker stack deploy --compose-file=docker-compose-swarm.yml my-compose-swarm
 docker stack ls
