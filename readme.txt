@@ -103,3 +103,12 @@ ps auxw --sort=vsz
 
 
 
+Cloudera:
+http://10.100.1.34:7180
+
+hue:
+http://dtqa-sps01.skylab.demandtec.net:8889/hue/
+
+
+
+
