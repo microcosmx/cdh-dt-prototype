@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.myrestservice.sample</groupId>
-	<artifactId>rest-service-cluster</artifactId>
+	<artifactId>cdh-dt-prototype</artifactId>
 	<version>0.1.0</version>
 	<packaging>pom</packaging>
-	<name>rest-service-cluster</name>
+	<name>cdh-dt-prototype</name>
 
 	<parent>
         <groupId>org.springframework.boot</groupId>
