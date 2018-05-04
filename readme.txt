@@ -43,6 +43,12 @@ docker run -d --name myredis -p 6379:6379 redis
 
 
 Cluster environment (swarm):
+machine:
+10.100.1.34     dtqa-spm01.skylab.demandtec.net
+10.100.1.35     dtqa-sps01.skylab.demandtec.net
+10.100.1.36     dtqa-sps02.skylab.demandtec.net
+10.100.1.37     dtqa-sps03.skylab.demandtec.net
+10.100.1.38     dtqa-sps04.skylab.demandtec.net
 
 registry:
 10.100.1.38:5000/v2/_catalog
@@ -87,7 +93,7 @@ docker run -d -p 9000:9000 --name=portainer-ui-local -v /var/run/docker.sock:/va
 http://10.100.1.34:9000/
 
 swarm ui:
-http://10.100.1.34:9000/
+http://10.100.1.34:19000/
 
 run:
 http://10.100.1.34:16601/hello1?cal=60

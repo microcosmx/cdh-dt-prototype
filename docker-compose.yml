@@ -5,7 +5,6 @@ services:
   rest-service-dashboard:
     build: dashboard_x
     image: my-service-cluster/rest-service-dashboard
-    # image: 10.141.212.25:5555/my-rest-service-dashboard
     restart: always
     ports:
       - 16600:16600
@@ -39,7 +38,6 @@ services:
   rest-service-sync:
     build: rest-service-sync
     image: my-service-cluster/rest-service-sync
-    # image: 10.141.212.25:5555/my-rest-service-sync
     restart: always
     ports:
       - 16601:16601
@@ -53,7 +51,6 @@ services:
   rest-service-analysis:
     build: rest-service-analysis
     image: my-service-cluster/rest-service-analysis
-    # image: 10.141.212.25:5555/my-rest-service-analysis
     restart: always
     ports:
       - 16602:16602
@@ -68,7 +65,6 @@ services:
 
 networks:
   my-network:
-    # driver: overlay
     driver: bridge
 
 
